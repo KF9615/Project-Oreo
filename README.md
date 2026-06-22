@@ -2,6 +2,11 @@
 
 A full-stack skincare product management application
 
+## Screenshots
+
+!(screenshots/Home1.png)
+!(screenshots/Home2.png)
+
 ## Features
 
 - View all products

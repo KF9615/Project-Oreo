@@ -1,0 +1,145 @@
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  width: min(1100px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.app-header {
+  margin-bottom: 32px;
+  border-bottom: 2px solid #3f6844;
+  padding-bottom: 20px;
+}
+
+.app-header h1 {
+  margin: 0;
+  color: #24442b;
+  font-size: 2.25rem;
+  letter-spacing: 0;
+}
+
+.app-header p {
+  margin: 6px 0 0;
+  color: #657064;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #d9ded5;
+  border-radius: 8px;
+}
+
+label {
+  display: grid;
+  gap: 6px;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  color: #20251f;
+  background: #ffffff;
+  border: 1px solid #aeb8aa;
+  border-radius: 4px;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #3f6844;
+  outline: 3px solid #dce9dd;
+}
+
+button {
+  width: fit-content;
+  padding: 9px 16px;
+  columns: #ffffff;
+  background: #5f8f68;
+  border: 1px solid #5f8f68;
+  border-radius: pointer;
+}
+
+button:hover {
+  background: #4f7d59;
+  color: #e8e8e8;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.product-card {
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #d9ded5;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  max-width: 0 0 10px;
+  color: #24442b;
+}
+
+.price {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #31583a;
+}
+
+.product-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.edit-button {
+  background: #5f8f68;
+}
+
+.delete-button {
+  background: #a64e4a;
+  border-color: #a64e4a;
+}
+
+.delete-button:hover {
+  background: #a8403b;
+  border-color: #a8403b;
+  color: #e8e8e8;
+}
+
+.error-message {
+  color: #a43d38;
+}
+
+
+@media (max-width: 640px) {
+  .app {
+    width: min(100% - 24px, 1100px);
+    padding: 24px, 0;
+  }
+
+  .app-header h1 {
+    font-size: 1.8rem;
+  }
+}

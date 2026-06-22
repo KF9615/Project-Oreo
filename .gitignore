@@ -1,0 +1,9 @@
+.idea/
+*.iml
+
+.env
+.env.local
+.env.*.local
+
+Thumbs.db
+.DS_Store

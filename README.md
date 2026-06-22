@@ -4,8 +4,8 @@ A full-stack skincare product management application
 
 ## Screenshots
 
-!(screenshots/Home1.png)
-!(screenshots/Home2.png)
+![Oreo Botanicals Home page](screenshots/Home1.png)
+![Oreo Botanicals products](screenshots/Home2.png)
 
 ## Features
 
